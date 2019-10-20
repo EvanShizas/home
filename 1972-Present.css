@@ -1,0 +1,197 @@
+/*'list-style-type' set to 'none' removes the bullet points in a <ul>/<ol> child element. This is done to help set the navigation bar correctly on the webpage.
+Setting the 'margin' and and 'padding' to 0%, removes the spacing between the 'navbar' and the edge of the document.*/
+#navbar
+{
+	list-style-type: none;
+	margin: 0%;
+	padding: 0%;
+	position: fixed;
+	overflow: hidden;
+	background-color: #000000;
+	width: 100%;
+	height: 29px;
+	top: 0%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.navbar1
+{
+	float: left;
+	margin: 0%;
+	padding: 0%;
+}
+
+.navbar2
+{
+	display: inline-block;
+	margin: 0%;
+	color: white;
+	font-family: 'Arial', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	padding: 6px 20px;
+	text-decoration: none;
+}
+
+#navbar3
+{
+	float: right;
+}
+
+#navbar4
+{
+	float: left;
+}
+
+#navbar5
+{
+	float: right;
+}
+
+.navbar2:hover
+{
+	background-color: grey;
+}
+
+.activenav
+{
+	background-color: grey;
+	display: inline-block;
+	margin: 0%;
+	color: #ffffff;
+	font-family: 'Arial', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	padding: 3px 10px;
+	text-decoration: none;
+	float: left;
+}
+
+/*The selectors #navbar, to #activenav help to create the webpages naviagtion bar with all the wanted functions, including selection highlighting*/
+
+/* This source code changes/sets the rules and framework for this webpage of the 'History of Nintendo' website*/
+#title1
+{
+	font-family: 'Bitter', serif;
+	font-size: 60px;
+	text-align: center;
+	color: #000000;
+	padding-top: 1%;
+}
+
+.info
+{
+	text-align: justify;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+#ID
+{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+	margin-right: 0;
+	padding-bottom: 0;
+	color: #ffffff;
+	background-color: red;
+	display: block;
+}
+
+.title
+{
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #000000;
+	padding: 1%;
+}
+
+.Left
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 3%;
+}
+
+.SubText
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	padding-left: 0;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 5%
+}
+
+.SubText1
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	padding-left: 0;
+	font-weight: bold;
+}
+
+#MarioCap
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#right1
+{
+	float: left;
+}
+
+#right2
+{
+	float: right;
+}
+
+#Right1
+{
+	text-align: left;
+}
+
+#Right2
+{
+	text-align: right;
+}
+
+.extra
+{
+	text-align: center;
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 20px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+#Video1
+{
+	width: 96%;
+	background-color: red;
+	margin-top: 0;
+	margin-bottom: 5%;
+	padding: 2%;
+}
+
+#Video
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 0;
+}
